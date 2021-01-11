@@ -65,7 +65,7 @@ There are multiple places you can share your solution:
 
 ## Giving feedback
 
-Feedback is always welcome, so if you have any to give on this challenge please email hi[at]frontendmentor[dot]io.
+Feedback is always welcome, so if you have any to give on this challenge please email pdhruvil1908@gmail.com .
 
 This challenge is completely free. Please share it with anyone who will find it useful for practice.
 
