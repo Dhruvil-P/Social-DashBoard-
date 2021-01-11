@@ -1,0 +1,569 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: hsl(0, 0%, 100%);
+    font-family: 'Inter', sans-serif;
+}
+.M{
+    background: hsl(230, 17%, 14%);
+}
+.Dash{
+    background: hsl(225, 100%, 98%);
+    width: 100%;
+    height: 30vh;
+    border-radius: 0 0 30px 30px;
+    h2{
+        color: black;
+        font-weight: 700;
+        background: transparent;
+        padding-top: 30px;
+        padding-left: 150px;
+    }
+    .h2-Toggle{
+        color: white;
+    }
+    h5{
+        color: hsl(228, 12%, 44%);
+        font-weight: 700;
+        background: transparent;
+        margin-top: 5px;
+        margin-left: 150px;
+    }
+    .h5-Toggle{
+        color: hsl(228, 34%, 66%);
+    }
+    .Mode{
+        color: hsl(228, 12%, 44%);
+        font-weight: 700;
+        background: transparent;
+        position: absolute;
+        left: 140vh;
+        top: 5vh;
+    }
+    .Mode-Toggle{
+        color: hsl(228, 34%, 66%);
+    }
+    .Mode1{
+        color: hsl(228, 12%, 44%);
+        font-weight: 700;
+        background: transparent;
+        position: absolute;
+        left: 167vh;
+        top: 5vh;
+    }
+    .Toggle{
+        background: hsl(230, 22%, 74%);
+        width: 60px;
+        height: 30px;
+        border-radius: 30px;
+        margin-left: 155vh;
+        margin-top: -6.5vh;
+        input{
+            opacity: 0;
+            height: 0;
+            width: 0;
+        }
+        .Slider{
+            width: 23px;
+            height: 23px;
+            border-radius: 50%;
+            background: hsl(225, 100%, 98%);
+            position: absolute;
+            top: 4.4vh;
+            left: 159.5vh;
+            cursor: pointer;
+            transition: 0.5s;
+        }
+        .Slider-Toggle{
+            background: hsl(232, 19%, 15%);
+            position: absolute;
+            left: 155.5vh;
+            width: 23px;
+            height: 23px;
+            transition: 0.5s;
+        }
+    }
+    .Switch-Toggle{
+        background: linear-gradient(to right,hsl(210, 78%, 56%) ,hsl(146, 68%, 55%));
+    }
+}
+
+.Main{
+    display: flex;
+    justify-content: space-evenly;
+    }
+    .FB{
+        width: 240px;
+        height: 220px;
+        background: hsl(227, 47%, 96%);
+        border-top: 4px solid hsl(208, 92%, 53%);
+        border-radius: 3px;
+        position: absolute;
+        top: 150px;
+        left: 200px;
+    }
+    .FB:hover{
+        background: #e1e3f0;
+        cursor: pointer;
+    }
+    
+    .Twitter{
+        width: 240px;
+        height: 220px;
+        background: hsl(227, 47%, 96%);
+        border-top: 4px solid hsl(203, 89%, 53%);
+        border-radius: 3px;
+        position: absolute;
+        top: 150px;
+        left: 490px;
+    }
+    .Twitter:hover{
+        background: #e1e3f0;
+        cursor: pointer;
+    }
+
+    
+    .Insta{
+        width: 240px;
+        height: 220px;
+        background: hsl(227, 47%, 96%);
+        border-top: 4px solid linear-gradient(to right,hsl(37, 97%, 70%) ,hsl(329, 70%, 58%));
+        border-radius: 3px;
+        position: absolute;
+        top: 150px;
+        left: 780px;
+        img{
+            background: transparent;
+        }
+    }
+    .Insta:hover{
+        background: #e1e3f0;
+        cursor: pointer;
+    }
+    
+    .YT{
+        width: 240px;
+        height: 220px;
+        background: hsl(227, 47%, 96%);
+        border-top: 4px solid hsl(348, 97%, 39%);
+        border-radius: 3px;
+        position: absolute;
+        top: 150px;
+        left: 1070px;
+    }
+    .YT:hover{
+        background: #e1e3f0;
+        cursor: pointer;
+    }
+    
+    .Logo{
+        margin-top: 30px;
+        margin-left: 80px;
+        margin-bottom: 20px;
+        display: flex;
+        background: transparent;
+        img{
+            margin-right: 5px;
+            background: transparent;
+        }
+        .Name{
+            background: transparent;
+            color: hsl(228, 12%, 44%);
+            font-size: 13px;
+            font-weight: 1200;
+        }
+        .Name-Toggle{
+            color: hsl(228, 34%, 66%);
+        }
+}
+    .Num1{
+        font-size: 50px;
+        font-weight: 700;
+        background: transparent;
+        margin-left: 60px;
+    }
+    .Num1-Toggle{
+        color: white;
+    }
+    .Num2{
+        font-size: 50px;
+        font-weight: 700;
+        background: transparent;
+        margin-left: 60px;
+    }
+    .Num2-Toggle{
+        color: white;
+    }
+    .Num3{
+        font-size: 50px;
+        font-weight: 700;
+        background: transparent;
+        margin-left: 80px;
+    }
+    .Num3-Toggle{
+        color: white;
+    }
+    .Num4{
+        font-size: 50px;
+        font-weight: 700;
+        background: transparent;
+        margin-left: 60px;
+    }
+    .Num4-Toggle{
+        color: white;
+    }
+    .Follow{
+        letter-spacing: 5px;
+        color: hsl(228, 12%, 44%);
+        background: transparent;
+        margin-left: 60px;
+    }
+    .Count{
+        color: hsl(163, 72%, 41%);
+        font-size: 13px;
+        background: transparent;
+        font-weight: bold;
+        margin-top: 30px;
+        margin-left: 85px;
+    }
+    .Count1{
+        color: hsl(356, 69%, 56%);
+        font-size: 13px;
+        background: transparent;
+        font-weight: bold;
+        margin-left: 95px;
+        margin-top: 30px;
+    }
+    .Vote{
+        margin-left: 70px;
+        margin-top: 37px;
+        float: left;
+        background: transparent;
+    }
+    .Vote1{
+        margin-left: 80px;
+        margin-top: 37px;
+        float: left;
+        background: transparent;
+    }
+
+.Logo1{
+    margin-top: 30px;
+    margin-left: 60px;
+    margin-bottom: 20px;
+    display: flex;
+    background: transparent;
+    img{
+        margin-right: 5px;
+    }
+    p{
+        background: transparent;
+        color: hsl(228, 12%, 44%);
+            font-size: 13px;
+            font-weight: 1200;
+    }
+}
+
+.Border{
+    height: 4px;
+    width: 240px;
+    background-image: linear-gradient(to right, hsl(37, 97%, 70%), hsl(329, 70%, 58%));
+    position: absolute;
+    top: 150px;
+    left: 780px;
+}
+
+.Container1{
+    display: flex;
+    margin-top: 200px;
+    justify-content: space-evenly;
+    .P1{
+        width: 240px;
+        height: 120px;
+        background: hsl(227, 47%, 96%);
+        position: absolute;
+        left: 200px;
+        border-radius: 4px;
+        p{
+            background: transparent;
+        }
+    }
+    .P1:hover{
+        background: #e1e3f0;
+        cursor: pointer;
+    }
+    .P1-Toggle{
+        background: hsl(228, 28%, 20%);
+    }
+    .P1-Toggle:hover{
+        background: #333a56;
+    }
+    .P2{
+        width: 240px;
+        height: 120px;
+        background: hsl(227, 47%, 96%);
+        position: absolute;
+        left: 490px;
+        border-radius: 4px;
+        p{
+            background: transparent;
+        }
+    }
+    .P2:hover{
+        background: #e1e3f0;
+        cursor: pointer;
+    }
+    .P2-Toggle{
+        background: hsl(228, 28%, 20%);
+    }
+    .P2-Toggle:hover{
+        background: #333a56;
+    }
+    .P3{
+        width: 240px;
+        height: 120px;
+        background: hsl(227, 47%, 96%);
+        position: absolute;
+        left: 780px;
+        border-radius: 4px;
+        p{
+            background: transparent;
+        }
+    }
+    .P3:hover{
+        background: #e1e3f0;
+        cursor: pointer;
+    }
+    .P3-Toggle{
+        background: hsl(228, 28%, 20%);
+    }
+    .P3-Toggle:hover{
+        background: #333a56;
+    }
+    .P4{
+        width: 240px;
+        height: 120px;
+        background: hsl(227, 47%, 96%);
+        position: absolute;
+        left: 1070px;
+        border-radius: 4px;
+        p{
+            background: transparent;
+        }
+    }
+    .P4:hover{
+        background: #e1e3f0;
+        cursor: pointer;
+    }
+    .P4-Toggle{
+        background: hsl(228, 28%, 20%);
+    }
+    .P4-Toggle:hover{
+        background: #333a56;
+    }
+}
+.Container2{
+    display: flex;
+    margin-top: 140px;
+    justify-content: space-evenly;
+    .P5{
+        width: 240px;
+        height: 120px;
+        background: hsl(227, 47%, 96%);
+        position: absolute;
+        left: 200px;
+        border-radius: 4px;
+        p{
+            background: transparent;
+        }
+    }
+    .P5:hover{
+        background: #e1e3f0;
+        cursor: pointer;
+    }
+    .P5-Toggle{
+        background: hsl(228, 28%, 20%);
+    }
+    .P5-Toggle:hover{
+        background: #333a56;
+    }
+    .P6{
+        width: 240px;
+        height: 120px;
+        background: hsl(227, 47%, 96%);
+        position: absolute;
+        left: 490px;
+        border-radius: 4px;
+        p{
+            background: transparent;
+        }
+    }
+    .P6:hover{
+        background: #e1e3f0;
+        cursor: pointer;
+    }
+    .P6-Toggle{
+        background: hsl(228, 28%, 20%);
+    }
+    .P6-Toggle:hover{
+        background: #333a56;
+    }
+    .P7{
+        width: 240px;
+        height: 120px;
+        background: hsl(227, 47%, 96%);
+        position: absolute;
+        left: 780px;
+        border-radius: 4px;
+        p{
+            background: transparent;
+        }
+    }
+    .P7:hover{
+        background: #e1e3f0;
+        cursor: pointer;
+    }
+    .P7-Toggle{
+        background: hsl(228, 28%, 20%);
+    }
+    .P7-Toggle:hover{
+        background: #333a56;
+    }
+    .P8{
+        width: 240px;
+        height: 120px;
+        background: hsl(227, 47%, 96%);
+        position: absolute;
+        left: 1070px;
+        border-radius: 4px;
+        p{
+            background: transparent;
+        }
+    }
+    .P8:hover{
+        background: #e1e3f0;
+        cursor: pointer;
+    }
+    .P8-Toggle{
+        background: hsl(228, 28%, 20%);
+    }
+    .P8-Toggle:hover{
+        background: #333a56;
+    }
+}
+.Head{
+    color: hsl(228, 12%, 44%);
+    font-size: 15px;
+    font-weight: 900;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.Head-Toggle{
+    color: hsl(228, 34%, 66%);
+}
+.num{
+    color: black;
+    font-size: 30px;
+    font-weight: bolder;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.num-Toggle{
+    color: white;
+}
+.Per{
+    color: hsl(163, 72%, 41%);
+    font-size: 13px;
+    font-weight: bold;
+    margin-left: 160px;
+    position: absolute;
+    bottom: 15px;
+}
+.Red{
+    color: hsl(356, 69%, 56%);
+    font-size: 13px;
+    font-weight: bold;
+    margin-left: 170px;
+    position: absolute;
+    bottom: 20px;
+}
+.Span{
+    color: hsl(228, 12%, 44%);
+    font-size: 20px;
+    font-weight: 900;
+    position: absolute;
+    top: 390px;
+    left: 200px;
+}
+.Span-Toggle{
+    color: white;
+}
+.Icons{
+    position: absolute;
+    left: 170px;
+    top: 20px;
+    background: transparent;
+}
+.attribution{
+    position: absolute;
+    bottom: 1%;
+    font-size: 15px;
+}
+.attribution-Toggle{
+    color: white;
+}
+.Down{
+    position: absolute;
+    left: 145px;
+    top: 95px;
+    background: transparent;
+}
+.Down1{
+    position: absolute;
+    left: 155px;
+    top: 90px;
+    background: transparent;
+}
+
+// TOGGLE
+.Dash-Toggle{
+    background-color: hsl(232, 19%, 15%);
+}
+
+.FB-Toggle{
+    background: hsl(228, 28%, 20%);
+}
+.FB-Toggle:hover{
+    background: #333a56;
+}
+
+.Twitter-Toggle{
+    background: hsl(228, 28%, 20%);
+}
+.Twitter-Toggle:hover{
+    background: #333a56;
+}
+
+.Insta-Toggle{
+    background: hsl(228, 28%, 20%);
+}
+.Insta-Toggle:hover{
+    background: #333a56;
+}
+
+.YT-Toggle{
+    background: hsl(228, 28%, 20%);
+}
+.YT-Toggle:hover{
+    background: #333a56;
+}
+
+// Media Query 
+@media only screen and (min-width:721px){
+    body{
+        overflow: hidden;
+    }
+}

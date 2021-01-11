@@ -1,0 +1,683 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background: white;
+  font-family: 'Inter', sans-serif;
+}
+
+.M {
+  background: #1e202a;
+}
+
+.Dash {
+  background: #f5f7ff;
+  width: 100%;
+  height: 30vh;
+  border-radius: 0 0 30px 30px;
+}
+
+.Dash h2 {
+  color: black;
+  font-weight: 700;
+  background: transparent;
+  padding-top: 30px;
+  padding-left: 150px;
+}
+
+.Dash .h2-Toggle {
+  color: white;
+}
+
+.Dash h5 {
+  color: #63687e;
+  font-weight: 700;
+  background: transparent;
+  margin-top: 5px;
+  margin-left: 150px;
+}
+
+.Dash .h5-Toggle {
+  color: #8b97c6;
+}
+
+.Dash .Mode {
+  color: #63687e;
+  font-weight: 700;
+  background: transparent;
+  position: absolute;
+  left: 140vh;
+  top: 5vh;
+}
+
+.Dash .Mode-Toggle {
+  color: #8b97c6;
+}
+
+.Dash .Mode1 {
+  color: #63687e;
+  font-weight: 700;
+  background: transparent;
+  position: absolute;
+  left: 167vh;
+  top: 5vh;
+}
+
+.Dash .Toggle {
+  background: #aeb3cb;
+  width: 60px;
+  height: 30px;
+  border-radius: 30px;
+  margin-left: 155vh;
+  margin-top: -6.5vh;
+}
+
+.Dash .Toggle input {
+  opacity: 0;
+  height: 0;
+  width: 0;
+}
+
+.Dash .Toggle .Slider {
+  width: 23px;
+  height: 23px;
+  border-radius: 50%;
+  background: #f5f7ff;
+  position: absolute;
+  top: 4.4vh;
+  left: 159.5vh;
+  cursor: pointer;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.Dash .Toggle .Slider-Toggle {
+  background: #1f212e;
+  position: absolute;
+  left: 155.5vh;
+  width: 23px;
+  height: 23px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.Dash .Switch-Toggle {
+  background: -webkit-gradient(linear, left top, right top, from(#378fe6), to(#3eda82));
+  background: linear-gradient(to right, #378fe6, #3eda82);
+}
+
+.Main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.FB {
+  width: 240px;
+  height: 220px;
+  background: #f0f2fa;
+  border-top: 4px solid #198ff5;
+  border-radius: 3px;
+  position: absolute;
+  top: 150px;
+  left: 200px;
+}
+
+.FB:hover {
+  background: #e1e3f0;
+  cursor: pointer;
+}
+
+.Twitter {
+  width: 240px;
+  height: 220px;
+  background: #f0f2fa;
+  border-top: 4px solid #1ca0f2;
+  border-radius: 3px;
+  position: absolute;
+  top: 150px;
+  left: 490px;
+}
+
+.Twitter:hover {
+  background: #e1e3f0;
+  cursor: pointer;
+}
+
+.Insta {
+  width: 240px;
+  height: 220px;
+  background: #f0f2fa;
+  border-top: 4px solid linear-gradient(to right, #fdc468, #df4996);
+  border-radius: 3px;
+  position: absolute;
+  top: 150px;
+  left: 780px;
+}
+
+.Insta img {
+  background: transparent;
+}
+
+.Insta:hover {
+  background: #e1e3f0;
+  cursor: pointer;
+}
+
+.YT {
+  width: 240px;
+  height: 220px;
+  background: #f0f2fa;
+  border-top: 4px solid #c4032a;
+  border-radius: 3px;
+  position: absolute;
+  top: 150px;
+  left: 1070px;
+}
+
+.YT:hover {
+  background: #e1e3f0;
+  cursor: pointer;
+}
+
+.Logo {
+  margin-top: 30px;
+  margin-left: 80px;
+  margin-bottom: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: transparent;
+}
+
+.Logo img {
+  margin-right: 5px;
+  background: transparent;
+}
+
+.Logo .Name {
+  background: transparent;
+  color: #63687e;
+  font-size: 13px;
+  font-weight: 1200;
+}
+
+.Logo .Name-Toggle {
+  color: #8b97c6;
+}
+
+.Num1 {
+  font-size: 50px;
+  font-weight: 700;
+  background: transparent;
+  margin-left: 60px;
+}
+
+.Num1-Toggle {
+  color: white;
+}
+
+.Num2 {
+  font-size: 50px;
+  font-weight: 700;
+  background: transparent;
+  margin-left: 60px;
+}
+
+.Num2-Toggle {
+  color: white;
+}
+
+.Num3 {
+  font-size: 50px;
+  font-weight: 700;
+  background: transparent;
+  margin-left: 80px;
+}
+
+.Num3-Toggle {
+  color: white;
+}
+
+.Num4 {
+  font-size: 50px;
+  font-weight: 700;
+  background: transparent;
+  margin-left: 60px;
+}
+
+.Num4-Toggle {
+  color: white;
+}
+
+.Follow {
+  letter-spacing: 5px;
+  color: #63687e;
+  background: transparent;
+  margin-left: 60px;
+}
+
+.Count {
+  color: #1db489;
+  font-size: 13px;
+  background: transparent;
+  font-weight: bold;
+  margin-top: 30px;
+  margin-left: 85px;
+}
+
+.Count1 {
+  color: #dc414c;
+  font-size: 13px;
+  background: transparent;
+  font-weight: bold;
+  margin-left: 95px;
+  margin-top: 30px;
+}
+
+.Vote {
+  margin-left: 70px;
+  margin-top: 37px;
+  float: left;
+  background: transparent;
+}
+
+.Vote1 {
+  margin-left: 80px;
+  margin-top: 37px;
+  float: left;
+  background: transparent;
+}
+
+.Logo1 {
+  margin-top: 30px;
+  margin-left: 60px;
+  margin-bottom: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: transparent;
+}
+
+.Logo1 img {
+  margin-right: 5px;
+}
+
+.Logo1 p {
+  background: transparent;
+  color: #63687e;
+  font-size: 13px;
+  font-weight: 1200;
+}
+
+.Border {
+  height: 4px;
+  width: 240px;
+  background-image: -webkit-gradient(linear, left top, right top, from(#fdc468), to(#df4996));
+  background-image: linear-gradient(to right, #fdc468, #df4996);
+  position: absolute;
+  top: 150px;
+  left: 780px;
+}
+
+.Container1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 200px;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.Container1 .P1 {
+  width: 240px;
+  height: 120px;
+  background: #f0f2fa;
+  position: absolute;
+  left: 200px;
+  border-radius: 4px;
+}
+
+.Container1 .P1 p {
+  background: transparent;
+}
+
+.Container1 .P1:hover {
+  background: #e1e3f0;
+  cursor: pointer;
+}
+
+.Container1 .P1-Toggle {
+  background: #252a41;
+}
+
+.Container1 .P1-Toggle:hover {
+  background: #333a56;
+}
+
+.Container1 .P2 {
+  width: 240px;
+  height: 120px;
+  background: #f0f2fa;
+  position: absolute;
+  left: 490px;
+  border-radius: 4px;
+}
+
+.Container1 .P2 p {
+  background: transparent;
+}
+
+.Container1 .P2:hover {
+  background: #e1e3f0;
+  cursor: pointer;
+}
+
+.Container1 .P2-Toggle {
+  background: #252a41;
+}
+
+.Container1 .P2-Toggle:hover {
+  background: #333a56;
+}
+
+.Container1 .P3 {
+  width: 240px;
+  height: 120px;
+  background: #f0f2fa;
+  position: absolute;
+  left: 780px;
+  border-radius: 4px;
+}
+
+.Container1 .P3 p {
+  background: transparent;
+}
+
+.Container1 .P3:hover {
+  background: #e1e3f0;
+  cursor: pointer;
+}
+
+.Container1 .P3-Toggle {
+  background: #252a41;
+}
+
+.Container1 .P3-Toggle:hover {
+  background: #333a56;
+}
+
+.Container1 .P4 {
+  width: 240px;
+  height: 120px;
+  background: #f0f2fa;
+  position: absolute;
+  left: 1070px;
+  border-radius: 4px;
+}
+
+.Container1 .P4 p {
+  background: transparent;
+}
+
+.Container1 .P4:hover {
+  background: #e1e3f0;
+  cursor: pointer;
+}
+
+.Container1 .P4-Toggle {
+  background: #252a41;
+}
+
+.Container1 .P4-Toggle:hover {
+  background: #333a56;
+}
+
+.Container2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 140px;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.Container2 .P5 {
+  width: 240px;
+  height: 120px;
+  background: #f0f2fa;
+  position: absolute;
+  left: 200px;
+  border-radius: 4px;
+}
+
+.Container2 .P5 p {
+  background: transparent;
+}
+
+.Container2 .P5:hover {
+  background: #e1e3f0;
+  cursor: pointer;
+}
+
+.Container2 .P5-Toggle {
+  background: #252a41;
+}
+
+.Container2 .P5-Toggle:hover {
+  background: #333a56;
+}
+
+.Container2 .P6 {
+  width: 240px;
+  height: 120px;
+  background: #f0f2fa;
+  position: absolute;
+  left: 490px;
+  border-radius: 4px;
+}
+
+.Container2 .P6 p {
+  background: transparent;
+}
+
+.Container2 .P6:hover {
+  background: #e1e3f0;
+  cursor: pointer;
+}
+
+.Container2 .P6-Toggle {
+  background: #252a41;
+}
+
+.Container2 .P6-Toggle:hover {
+  background: #333a56;
+}
+
+.Container2 .P7 {
+  width: 240px;
+  height: 120px;
+  background: #f0f2fa;
+  position: absolute;
+  left: 780px;
+  border-radius: 4px;
+}
+
+.Container2 .P7 p {
+  background: transparent;
+}
+
+.Container2 .P7:hover {
+  background: #e1e3f0;
+  cursor: pointer;
+}
+
+.Container2 .P7-Toggle {
+  background: #252a41;
+}
+
+.Container2 .P7-Toggle:hover {
+  background: #333a56;
+}
+
+.Container2 .P8 {
+  width: 240px;
+  height: 120px;
+  background: #f0f2fa;
+  position: absolute;
+  left: 1070px;
+  border-radius: 4px;
+}
+
+.Container2 .P8 p {
+  background: transparent;
+}
+
+.Container2 .P8:hover {
+  background: #e1e3f0;
+  cursor: pointer;
+}
+
+.Container2 .P8-Toggle {
+  background: #252a41;
+}
+
+.Container2 .P8-Toggle:hover {
+  background: #333a56;
+}
+
+.Head {
+  color: #63687e;
+  font-size: 15px;
+  font-weight: 900;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.Head-Toggle {
+  color: #8b97c6;
+}
+
+.num {
+  color: black;
+  font-size: 30px;
+  font-weight: bolder;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.num-Toggle {
+  color: white;
+}
+
+.Per {
+  color: #1db489;
+  font-size: 13px;
+  font-weight: bold;
+  margin-left: 160px;
+  position: absolute;
+  bottom: 15px;
+}
+
+.Red {
+  color: #dc414c;
+  font-size: 13px;
+  font-weight: bold;
+  margin-left: 170px;
+  position: absolute;
+  bottom: 20px;
+}
+
+.Span {
+  color: #63687e;
+  font-size: 20px;
+  font-weight: 900;
+  position: absolute;
+  top: 390px;
+  left: 200px;
+}
+
+.Span-Toggle {
+  color: white;
+}
+
+.Icons {
+  position: absolute;
+  left: 170px;
+  top: 20px;
+  background: transparent;
+}
+
+.attribution {
+  position: absolute;
+  bottom: 1%;
+  font-size: 15px;
+}
+
+.attribution-Toggle {
+  color: white;
+}
+
+.Down {
+  position: absolute;
+  left: 145px;
+  top: 95px;
+  background: transparent;
+}
+
+.Down1 {
+  position: absolute;
+  left: 155px;
+  top: 90px;
+  background: transparent;
+}
+
+.Dash-Toggle {
+  background-color: #1f212e;
+}
+
+.FB-Toggle {
+  background: #252a41;
+}
+
+.FB-Toggle:hover {
+  background: #333a56;
+}
+
+.Twitter-Toggle {
+  background: #252a41;
+}
+
+.Twitter-Toggle:hover {
+  background: #333a56;
+}
+
+.Insta-Toggle {
+  background: #252a41;
+}
+
+.Insta-Toggle:hover {
+  background: #333a56;
+}
+
+.YT-Toggle {
+  background: #252a41;
+}
+
+.YT-Toggle:hover {
+  background: #333a56;
+}
+
+@media only screen and (min-width: 721px) {
+  body {
+    overflow: hidden;
+  }
+}
+/*# sourceMappingURL=index.css.map */
