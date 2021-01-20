@@ -562,8 +562,180 @@
 }
 
 // Media Query 
-@media only screen and (min-width:721px){
+@media only screen and (max-width:721px){
     body{
-        overflow: hidden;
+        overflow-x: hidden;
+    }
+    .Dash{
+        width: 100%;
+        h2{
+            margin-left: -5rem;
+        }
+        h5{
+            margin-left: 4.5rem;
+            margin-top: 1rem;
+        }
+        hr{
+            visibility: visible;
+            width: 80%;
+            margin-left: 2.5rem;
+            margin-top: 1.5rem;
+        }
+        .Mode{
+            position: absolute;
+            left: 40px;
+            top: 150px;
+        }
+        .Mode1{
+            position: absolute;
+            left: 270px;
+            top: 150px;
+        }
+        .Toggle{
+            position: absolute;
+            left: -1220px;
+            top: 205px;
+            .Slider{
+                position: absolute;
+                top: 3px;
+                left: 5px;
+            }
+            .Slider-Toggle{
+                position: absolute;
+                top: 3px;
+                left: 32px;
+            }
+        }
+    }
+    .Main{
+        margin-left: -10vw;
+        .FB{
+            grid-row: 1;
+            grid-column: 1;
+            margin-left: -10rem;
+            margin-top: 4rem;
+            width: 80%;
+            .Num1{
+                margin-left: 7rem;
+            }
+        }
+        .Twitter{
+            grid-row: 2;
+            grid-column: 1;
+            margin-left: -28rem;
+            margin-top: 20rem;
+            width: 80%;
+            .Num2{
+                margin-left: 7rem;
+            }
+        }
+        .Insta{
+            grid-row: 3;
+            grid-column: 1;
+            margin-left: -46rem;
+            margin-top: 36rem;
+            width: 80%;
+            .Num3{
+                margin-left: 8rem;
+            }
+        }
+        .YT{
+            grid-row: 4;
+            grid-column: 1;
+            margin-left: -64rem;
+            margin-top: 52rem;
+            width: 80%;
+            .Num4{
+                margin-left: 7rem;
+            }
+        }
+    }
+    .Span{
+        margin-left: -10rem;
+        margin-top: 53rem;
+    }
+    .Container1{
+        .P1{
+            margin-left: -10rem;
+            margin-top: 52rem;
+            width: 80%;
+        }
+        .P2{
+            margin-left: -28rem;
+            margin-top: 62rem;
+            width: 80%;
+        }
+        .P3{
+            margin-left: -46rem;
+            margin-top: 72rem;
+            width: 80%;
+        }
+        .P4{
+            margin-left: -64rem;
+            margin-top: 82rem;
+            width: 80%;
+        }
+    }
+    .Container2{
+        .P5{
+            margin-left: -9.5rem;
+            margin-top: 83.5rem;
+            width: 80%;
+        }
+        .P6{
+            margin-left: -28rem;
+            margin-top: 93.5rem;
+            width: 80%;
+        }
+        .P7{
+            margin-left: -46rem;
+            margin-top: 103.5rem;
+            width: 80%;
+        }
+        .P8{
+            margin-left: -64rem;
+            margin-top: 113.5rem;
+            width: 80%;
+        }
+    }
+    .attribution{
+        position: absolute;
+        top: 160rem;
+        left: 3rem;
+    }
+    .Logo{
+        img{
+            margin-left: 3rem;
+        }
+        .Name{
+            margin-left: -0.2rem;
+        }
+    }
+    .Follow{
+        margin-left: 7rem;
+    }
+    .Vote, .Vote1{
+        margin-left: 8rem;
+    }
+    .Icons{
+        margin-left: 6rem;
+    }
+    .Down{
+        margin-left: 5rem;
+    }
+    .Down1{
+        margin-left: 4.5rem;
+    }
+    .Per{
+        margin-left: 15rem;
+    }
+    .Red{
+        margin-left: 15.5rem;
+    }
+    .Border{
+        position: absolute;
+        top: 81vh;
+        left: 10.5vw;
+        width: 80%;
     }
 }
